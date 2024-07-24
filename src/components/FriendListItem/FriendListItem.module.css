@@ -1,0 +1,27 @@
+.friendList {
+  display: inline-block;
+  border: 1.5px solid #000000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.friendList:not(:last-child) {
+  margin-right: 20px;
+}
+
+.friendName {
+  margin: 0;
+  font-weight: 500;
+}
+
+.friendStatusOnline {
+  color: rgb(135, 225, 0);
+  font-size: 12px;
+  margin: 0;
+}
+
+.friendStatusOffline {
+  color: rgb(225, 0, 0);
+  font-size: 12px;
+  margin: 0;
+}

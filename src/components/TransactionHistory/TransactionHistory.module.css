@@ -1,0 +1,22 @@
+.transactions {
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid #000000;
+  border-spacing: 0cap;
+}
+.transactionType {
+  border: 1px solid #000000;
+}
+
+.transactionData {
+  background-color: #3e3d3d;
+  color: aliceblue;
+}
+
+.transactionItem {
+  border: 1px solid #000;
+}
+
+.transactionList:nth-child(2) {
+  background-color: #3e3d3d;
+}
